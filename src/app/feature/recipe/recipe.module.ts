@@ -5,8 +5,9 @@ import { ListComponent } from './list/list.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { DetailComponent } from './detail/detail.component';
+import { ItemComponent } from './item/item.component';
 
-const shared = [RecipeComponent, ListComponent, AddComponent, EditComponent, DetailComponent];
+const shared = [RecipeComponent, ListComponent, AddComponent, EditComponent, DetailComponent, ItemComponent];
 @NgModule({
   imports: [
     CommonModule
