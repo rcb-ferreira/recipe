@@ -6,10 +6,12 @@ import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { DetailComponent } from './detail/detail.component';
 
+const shared = [RecipeComponent, ListComponent, AddComponent, EditComponent, DetailComponent];
 @NgModule({
-  declarations: [RecipeComponent, ListComponent, AddComponent, EditComponent, DetailComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: shared,
+  declarations: shared,
 })
 export class RecipeModule { }

@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderModule } from './component/header/header.module';
+import { RecipeModule } from './recipe/recipe.module';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   exports: [
-    HeaderModule
+    RecipeModule
   ]
 })
-export class CoreModule { }
+export class FeatureModule { }
